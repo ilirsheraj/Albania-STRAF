@@ -1,0 +1,9 @@
+seq 1 6 | while read -r K; do
+  seq 1 20 | while read -r REP; do
+    echo "$K $REP"
+  done
+done | xargs -n 2 -P 4 ./run_primary_structure.sh
+
+# change the number of cores -P: It takes a lot of time to run a single iteration
+ # if you have 20 cores, youll be able to run the the analysis for single k in
+ # about 15-20 min, depending on convergence and CPUs

@@ -1,0 +1,242 @@
+BATCH START: 2026-08-07T19:17:45Z
+Starting K=1, replicate=1, seed=20261806
+Starting K=1, replicate=2, seed=20261807
+Starting K=1, replicate=3, seed=20261808
+Starting K=1, replicate=5, seed=20261810
+Starting K=1, replicate=4, seed=20261809
+Starting K=1, replicate=6, seed=20261811
+Starting K=1, replicate=7, seed=20261812
+Starting K=1, replicate=8, seed=20261813
+Starting K=1, replicate=10, seed=20261815
+Starting K=1, replicate=11, seed=20261816
+Starting K=1, replicate=12, seed=20261817
+Starting K=1, replicate=9, seed=20261814
+Completed K=1, replicate=10
+Starting K=1, replicate=13, seed=20261818
+Completed K=1, replicate=3
+Starting K=1, replicate=14, seed=20261819
+Completed K=1, replicate=12
+Starting K=1, replicate=15, seed=20261820
+Completed K=1, replicate=7
+Starting K=1, replicate=16, seed=20261821
+Completed K=1, replicate=8
+Starting K=1, replicate=17, seed=20261822
+Completed K=1, replicate=5
+Starting K=1, replicate=18, seed=20261823
+Completed K=1, replicate=9
+Starting K=1, replicate=19, seed=20261824
+Completed K=1, replicate=2
+Starting K=1, replicate=20, seed=20261825
+Completed K=1, replicate=4
+Starting K=2, replicate=1, seed=20262806
+Completed K=1, replicate=6
+Starting K=2, replicate=2, seed=20262807
+Completed K=1, replicate=1
+Starting K=2, replicate=3, seed=20262808
+Completed K=1, replicate=11
+Starting K=2, replicate=4, seed=20262809
+Completed K=1, replicate=13
+Starting K=2, replicate=5, seed=20262810
+Completed K=1, replicate=15
+Starting K=2, replicate=6, seed=20262811
+Completed K=1, replicate=17
+Starting K=2, replicate=7, seed=20262812
+Completed K=1, replicate=19
+Starting K=2, replicate=8, seed=20262813
+Completed K=1, replicate=18
+Starting K=2, replicate=9, seed=20262814
+Completed K=1, replicate=16
+Starting K=2, replicate=10, seed=20262815
+Completed K=1, replicate=20
+Starting K=2, replicate=11, seed=20262816
+Completed K=1, replicate=14
+Starting K=2, replicate=12, seed=20262817
+Completed K=2, replicate=1
+Starting K=2, replicate=13, seed=20262818
+Completed K=2, replicate=2
+Starting K=2, replicate=14, seed=20262819
+Completed K=2, replicate=4
+Starting K=2, replicate=15, seed=20262820
+Completed K=2, replicate=3
+Starting K=2, replicate=16, seed=20262821
+Completed K=2, replicate=6
+Starting K=2, replicate=17, seed=20262822
+Completed K=2, replicate=5
+Starting K=2, replicate=18, seed=20262823
+Completed K=2, replicate=7
+Starting K=2, replicate=19, seed=20262824
+Completed K=2, replicate=10
+Starting K=2, replicate=20, seed=20262825
+Completed K=2, replicate=8
+Starting K=3, replicate=1, seed=20263806
+Completed K=2, replicate=11
+Starting K=3, replicate=2, seed=20263807
+Completed K=2, replicate=12
+Starting K=3, replicate=3, seed=20263808
+Completed K=2, replicate=9
+Starting K=3, replicate=4, seed=20263809
+Completed K=2, replicate=14
+Starting K=3, replicate=5, seed=20263810
+Completed K=2, replicate=13
+Starting K=3, replicate=6, seed=20263811
+Completed K=2, replicate=15
+Starting K=3, replicate=7, seed=20263812
+Completed K=2, replicate=16
+Starting K=3, replicate=8, seed=20263813
+Completed K=2, replicate=17
+Completed K=2, replicate=18
+Starting K=3, replicate=9, seed=20263814
+Starting K=3, replicate=10, seed=20263815
+Completed K=2, replicate=19
+Starting K=3, replicate=11, seed=20263816
+Completed K=2, replicate=20
+Starting K=3, replicate=12, seed=20263817
+Completed K=3, replicate=2
+Starting K=3, replicate=13, seed=20263818
+Completed K=3, replicate=1
+Starting K=3, replicate=14, seed=20263819
+Completed K=3, replicate=4
+Starting K=3, replicate=15, seed=20263820
+Completed K=3, replicate=3
+Starting K=3, replicate=16, seed=20263821
+Completed K=3, replicate=5
+Starting K=3, replicate=17, seed=20263822
+Completed K=3, replicate=7
+Starting K=3, replicate=18, seed=20263823
+Completed K=3, replicate=6
+Starting K=3, replicate=19, seed=20263824
+Completed K=3, replicate=8
+Starting K=3, replicate=20, seed=20263825
+Completed K=3, replicate=9
+Starting K=4, replicate=1, seed=20264806
+Completed K=3, replicate=10
+Starting K=4, replicate=2, seed=20264807
+Completed K=3, replicate=11
+Starting K=4, replicate=3, seed=20264808
+Completed K=3, replicate=12
+Starting K=4, replicate=4, seed=20264809
+Completed K=3, replicate=14
+Starting K=4, replicate=5, seed=20264810
+Completed K=3, replicate=15
+Starting K=4, replicate=6, seed=20264811
+Completed K=3, replicate=13
+Starting K=4, replicate=7, seed=20264812
+Completed K=3, replicate=16
+Starting K=4, replicate=8, seed=20264813
+Completed K=3, replicate=17
+Starting K=4, replicate=9, seed=20264814
+Completed K=3, replicate=18
+Starting K=4, replicate=10, seed=20264815
+Completed K=3, replicate=19
+Starting K=4, replicate=11, seed=20264816
+Completed K=3, replicate=20
+Starting K=4, replicate=12, seed=20264817
+Completed K=4, replicate=1
+Starting K=4, replicate=13, seed=20264818
+Completed K=4, replicate=2
+Starting K=4, replicate=14, seed=20264819
+Completed K=4, replicate=3
+Starting K=4, replicate=15, seed=20264820
+Completed K=4, replicate=4
+Starting K=4, replicate=16, seed=20264821
+Completed K=4, replicate=5
+Starting K=4, replicate=17, seed=20264822
+Completed K=4, replicate=6
+Starting K=4, replicate=18, seed=20264823
+Completed K=4, replicate=7
+Starting K=4, replicate=19, seed=20264824
+Completed K=4, replicate=8
+Starting K=4, replicate=20, seed=20264825
+Completed K=4, replicate=9
+Starting K=5, replicate=1, seed=20265806
+Completed K=4, replicate=10
+Starting K=5, replicate=2, seed=20265807
+Completed K=4, replicate=11
+Starting K=5, replicate=3, seed=20265808
+Completed K=4, replicate=12
+Starting K=5, replicate=4, seed=20265809
+Completed K=4, replicate=13
+Starting K=5, replicate=5, seed=20265810
+Completed K=4, replicate=15
+Starting K=5, replicate=6, seed=20265811
+Completed K=4, replicate=14
+Starting K=5, replicate=7, seed=20265812
+Completed K=4, replicate=16
+Starting K=5, replicate=8, seed=20265813
+Completed K=4, replicate=17
+Starting K=5, replicate=9, seed=20265814
+Completed K=4, replicate=18
+Starting K=5, replicate=10, seed=20265815
+Completed K=4, replicate=20
+Starting K=5, replicate=11, seed=20265816
+Completed K=4, replicate=19
+Starting K=5, replicate=12, seed=20265817
+Completed K=5, replicate=2
+Starting K=5, replicate=13, seed=20265818
+Completed K=5, replicate=1
+Starting K=5, replicate=14, seed=20265819
+Completed K=5, replicate=3
+Starting K=5, replicate=15, seed=20265820
+Completed K=5, replicate=4
+Starting K=5, replicate=16, seed=20265821
+Completed K=5, replicate=5
+Starting K=5, replicate=17, seed=20265822
+Completed K=5, replicate=7
+Starting K=5, replicate=18, seed=20265823
+Completed K=5, replicate=6
+Starting K=5, replicate=19, seed=20265824
+Completed K=5, replicate=8
+Starting K=5, replicate=20, seed=20265825
+Completed K=5, replicate=9
+Starting K=6, replicate=1, seed=20266806
+Completed K=5, replicate=10
+Starting K=6, replicate=2, seed=20266807
+Completed K=5, replicate=11
+Starting K=6, replicate=3, seed=20266808
+Completed K=5, replicate=12
+Starting K=6, replicate=4, seed=20266809
+Completed K=5, replicate=13
+Starting K=6, replicate=5, seed=20266810
+Completed K=5, replicate=14
+Starting K=6, replicate=6, seed=20266811
+Completed K=5, replicate=16
+Starting K=6, replicate=7, seed=20266812
+Completed K=5, replicate=15
+Starting K=6, replicate=8, seed=20266813
+Completed K=5, replicate=17
+Starting K=6, replicate=9, seed=20266814
+Completed K=5, replicate=20
+Starting K=6, replicate=10, seed=20266815
+Completed K=5, replicate=18
+Starting K=6, replicate=11, seed=20266816
+Completed K=5, replicate=19
+Starting K=6, replicate=12, seed=20266817
+Completed K=6, replicate=1
+Starting K=6, replicate=13, seed=20266818
+Completed K=6, replicate=2
+Starting K=6, replicate=14, seed=20266819
+Completed K=6, replicate=4
+Starting K=6, replicate=15, seed=20266820
+Completed K=6, replicate=3
+Starting K=6, replicate=16, seed=20266821
+Completed K=6, replicate=5
+Starting K=6, replicate=17, seed=20266822
+Completed K=6, replicate=6
+Starting K=6, replicate=18, seed=20266823
+Completed K=6, replicate=7
+Starting K=6, replicate=19, seed=20266824
+Completed K=6, replicate=8
+Starting K=6, replicate=20, seed=20266825
+Completed K=6, replicate=9
+Completed K=6, replicate=11
+Completed K=6, replicate=10
+Completed K=6, replicate=12
+Completed K=6, replicate=13
+Completed K=6, replicate=14
+Completed K=6, replicate=15
+Completed K=6, replicate=16
+Completed K=6, replicate=17
+Completed K=6, replicate=18
+Completed K=6, replicate=19
+Completed K=6, replicate=20
+BATCH DONE: 2026-08-07T23:51:41Z
