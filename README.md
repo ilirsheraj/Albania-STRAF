@@ -22,8 +22,11 @@ Alleles are reported according to standard forensic STR nomenclature, including 
 * **`Albania_structure_full/`**
   Contains input file and parameters to run STRUCTURE software. In addition, I have included output and logfiles as well for reproducibility.
 
+* **`NewPopulations/`**
+  Contains allele frequency tables for some countries not available in STRidER
+
 * **`Albania_Population_Genetics_Comparison_Analysis.R`**
-  Performs population genetic comparisons between the Albanian population and populations from other European countries avaialable in STRidER Database, plus some data whichwe retrieved from literature and curated ourselves, such as Kosovo, Turkish Cyprus, and selected regions of Turkey.
+  Performs population genetic comparisons between the Albanian population and populations from other European countries avaialable in STRidER Database, plus some data which we retrieved from literature and curated ourselves, such as Kosovo, Turkish Cyprus, and selected regions of Turkey.
 
 * **`Albania_Post_Structure_Analysis.R`**
   Performs post-processing of STRUCTURE output, including summarization and visualization of the STRUCTURE results.
