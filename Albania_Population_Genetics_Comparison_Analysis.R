@@ -12,6 +12,11 @@ library(pegas)
 library(poppr)
 library(ggrepel)
 library(graph4lg)
+
+# Create Output Directories
+out_dir <- file.path(getwd(), "Population_Outputs")
+dir.create(out_dir,  showWarnings = FALSE, recursive = TRUE)
+
 # -------------------------------------------
 # Part 1: Extract data from STRidER
 # -------------------------------------------
@@ -425,7 +430,9 @@ freq_sum_df <- do.call(
   })
 )
 
-write.csv(freq_sum_df, "straf_database_loci_frequency_diagnostic.csv")
+write.csv(freq_sum_df, 
+          file = paste0(out_dir, "/straf_database_loci_frequency_diagnostic.csv"), 
+          row.names = FALSE)
 
 freq_sum_df[
   freq_sum_df$Sum < 0.95 | freq_sum_df$Sum > 1.05,
@@ -728,11 +735,11 @@ res_nei <- bootstrap_nj_loci_nei_parallel(
   seed = 42,)
 
 # Kosovo and TCyprus lower number of markers to 10
-# save(res_nei, file = "serbia_kosovo_cyprus_bootstrap.RData")
+# save(res_nei, file = paste0(out_dir, "/serbia_kosovo_cyprus_bootstrap.RData"))
 # Serbian data is problematic, removed
-# save(res_nei, file = "kosovo_cyprus_noserbia_bootstrap.RData")
+# save(res_nei, file = paste0(out_dir, "/kosovo_cyprus_noserbia_bootstrap.RData"))
 # Remove Serbia, Kosovo and Cyprus
-save(res_nei, file = "loci15_bootstrap.RData")
+save(res_nei, file = paste0(out_dir, "/loci15_bootstrap.RData"))
 
 res_nei$common_loci
 length(res_nei$common_loci)
@@ -740,9 +747,9 @@ length(res_nei$common_loci)
 res_nei$support
 
 # Save the stuff
-pdf(file = "NJ_tree_Nei_500_bootstrap_15loci.pdf",
-  width = 10,
-  height = 7)
+pdf(file = file.path(out_dir, "NJ_tree_Nei_500_bootstrap_15loci.pdf"),
+    width = 10,
+    height = 7)
 
 plot(
   res_nei$tree,
@@ -756,7 +763,7 @@ dev.off()
 
 # JPEG
 jpeg(
-  filename = "NJ_tree_Nei_500_bootstrap_15loci.jpg",
+  filename = file.path(out_dir, "NJ_tree_Nei_500_bootstrap_15loci.jpg"),
   width = 10,
   height = 7,
   units = "in",
@@ -776,13 +783,14 @@ dev.off()
 
 # No edgelength
 jpeg(
-  filename = "NJ_tree_Nei_500_bootstrap_smaller_15loci.jpg",
+  filename = file.path(out_dir, "NJ_tree_Nei_500_bootstrap_smaller_15loci.jpg"),
   width = 5,
   height = 3,
   units = "in",
   res = 600,
   quality = 100
 )
+
 
 plot(
   res_nei$tree,
@@ -869,6 +877,7 @@ ggsave("loci_15_countries_distance_matrix.jpeg",
        plot = matrix_plot, 
        width = 6, 
        height = 6, 
-       units = "in")
+       units = "in",
+       path = out_dir)
 
 # EOF
