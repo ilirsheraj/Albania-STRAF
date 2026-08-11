@@ -1,4 +1,4 @@
-# STRAF 2000 Albanian STR Profile Dataset
+# Albanian Population STR Profile Dataset
 
 A dataset containing **STRAF 2000-compatible autosomal STR profiles** from individuals sampled in **Albania**.
 
@@ -20,7 +20,7 @@ Alleles are reported according to standard forensic STR nomenclature, including 
 ## Repository Contents
 
 * **`Albania_structure_full/`**
-  Contains the complete output files generated from the STRUCTURE analyses.
+  Contains input file and parameters to run STRUCTURE software. In addition, I have included output and logfiles as well for reproducibility.
 
 * **`Albania_Population_Genetics_Comparison_Analysis.R`**
   Performs population genetic comparisons between the Albanian population and populations from other European countries avaialable in STRidER Database, plus some data whichwe retrieved from literature and curated ourselves, such as Kosovo, Turkish Cyprus, and selected regions of Turkey.
